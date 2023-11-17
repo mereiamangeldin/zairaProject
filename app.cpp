@@ -1,13 +1,22 @@
 #include <bits/stdc++.h>
-#include "car.h"
+#include "Car.h"
+#include "Motorcycle.h"
+#include "Vehicle.h"
+#include "Race.h"
 using namespace std;
 
+
+
+
 int main(){
-    Car c("Toyota", "Camry", 2023, 4);
+    Race<Vehicle> race;
 
-    cout << c.toString() << endl;
+    race += Car("Toyota", "Corolla", 2023, 4);
+    race += Motorcycle("Mers", "Aventa", 2019, "otomoto");
 
-    c.setModel("Corolla");
+    race.listAllVehicles();
 
-    cout << c.getBrand() << ' ' << c.getModel();
+    race.run(5);
+
+    return 0;
 }

@@ -1,3 +1,6 @@
+#ifndef MOTORCYCLE_H
+#define MOTORCYCLE_H
+
 #include "Vehicle.h"
 
 class Motorcycle : public Vehicle {
@@ -9,3 +12,5 @@ public:
     string getLicensePlate();
     void setLicensePlate(string licensePlate);
 };
+
+#endif

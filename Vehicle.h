@@ -1,3 +1,6 @@
+#ifndef VEHICLE_H
+#define VEHICLE_H
+
 #include <string>
 using namespace std;
 
@@ -21,3 +24,6 @@ public:
     void setDistance(int distance);
 
 };
+
+
+#endif

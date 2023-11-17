@@ -1,3 +1,6 @@
+#ifndef CAR_H
+#define cAR_H
+
 #include "Vehicle.h"
 
 class Car : public Vehicle {
@@ -9,3 +12,5 @@ public:
     int getNumDoors();
     void setNumDoors(int numDoors);
 };
+
+#endif
