@@ -7,6 +7,7 @@ protected:
     string brand;
     string model;
     int year;
+    int distance;
 public:
     Vehicle(string brand, string model, int year);
     string toString();
@@ -16,5 +17,7 @@ public:
     void setModel(string model);
     int getYear();
     void setYear(int year);
+    int getDistance();
+    void setDistance(int distance);
 
 };

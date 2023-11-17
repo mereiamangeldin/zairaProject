@@ -31,3 +31,11 @@ int Vehicle::getYear() {
 void Vehicle::setYear(int year) {
     this->year = year;
 }
+
+int Vehicle::getDistance() {
+    return distance;
+}
+
+void Vehicle::setDistance(int distance) {
+    this->distance = distance;
+}
