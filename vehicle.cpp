@@ -2,10 +2,10 @@
     #include <string>
 
 Vehicle::Vehicle(string brand, string model, int year)
-    : brand(brand), model(model), year(year) {}
+    : brand(brand), model(model), year(year), distance(0) {}
 
 string Vehicle::toString() {
-    return brand + " " + model;
+    return "brand: " + brand + "; model: " + model + "; ";
 }
 
 string Vehicle::getBrand() {

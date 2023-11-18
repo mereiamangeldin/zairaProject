@@ -13,7 +13,7 @@ protected:
     int distance;
 public:
     Vehicle(string brand, string model, int year);
-    string toString();
+    virtual string toString();
     string getBrand();
     void setBrand(string brand);
     string getModel();
